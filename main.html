@@ -1,0 +1,47 @@
+<html>
+<head>
+    <!--<script src="../components/angularjs-1.5.0/angular.js"></script>-->
+    <!--<script src="../components/angularjs-1.5.0/angular-route.js"></script>-->
+    <!--<script src="../scripts/modules/userService.js"></script>-->
+    <!--<script src="../scripts/filter/userFilter.js"></script>-->
+    <!--<script src="../scripts/controller/userController.js"></script>-->
+    <!--<script src="../scripts/directive/userDirective.js"></script>-->
+    <!--<script src="../scripts/route/route.js"></script>-->
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="right-bar">
+            <span class="welcome">当前用户：<b>...</b> <button class="btn btn-info btn-xs"><i class="fa fa-sign-out"></i> 注销</button></span>
+        </div>
+    </div>
+    <div class="mainContent  has-shadow">
+        <div ng-view></div>
+        <span ng-controller="userInfoController">
+            {{person.name}}
+        </span>
+    </div>
+</div>
+<div>
+    <!--<div ng-controller="userInfoController">-->
+        <!--<div>-->
+            <!--<input type="text" ng-model="person.name">-->
+            <!--<div>-->
+                <!--<div>自定义过滤器</div>-->
+                <!--<div>{{person.name| lowercase |capitalize }}</div>-->
+            <!--</div>-->
+            <!--<input type="button" ng-click="showPersonName()" value="显示姓名">-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<div>自定义指令</div>-->
+        <!--<my-demo-link></my-demo-link>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<div>自定义路由</div>-->
+        <!--<div ng-view></div>-->
+    <!--</div>-->
+</div>
+<script src="components/requirejs/require.js" data-main="scripts/main.js"></script>
+</body>
+</html>

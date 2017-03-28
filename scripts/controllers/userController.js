@@ -1,0 +1,37 @@
+/**
+ * Created by Administrator on 2017/3/27 0027.
+ * 创建userInfoController控制器，并在控制器中使用了userSerivce、userRole服务 以及使用了userFilter.js中的capitalize过滤器
+ * 注意：在控制器使中使用过滤器需要引入，不然全报错
+ */
+define(["controllers/controllers"],
+    function (controllers) {
+        'use strict';
+        console.log("run in controller........");
+        controllers.controller("userInfoController",["$scope","userSerivce","userRole",
+            function ($scope,userSerivce,userRole) {
+                $scope.person=userSerivce.getUserInfo("1");
+                console.log("**************");
+                console.log($scope.person);
+            }
+        ])
+    })
+// define(["controllers/controllers"],function (controllers) {
+//     controllers
+//         controllers.controller("userInfoController",["$scope","userSerivce","userRole",function ($scope,userSerivce,userRole) {
+//             $scope.person=userSerivce.getUserInfo("1");
+//             console.log($scope.person);
+//             $scope.showPersonName=function () {
+//                 console.log($scope.person);
+//                 console.log(userRole.getUserRoleInfo(1))
+//             };
+//         }])
+// })
+// angular.module('demo',['demo.services',"demo.filters","demo.directives"])
+// .controller('userInfoController',function ($scope,userSerivce,userRole) {
+//     $scope.person=userSerivce.getUserInfo("1");
+//     console.log($scope.person);
+//     $scope.showPersonName=function () {
+//         console.log($scope.person);
+//         console.log(userRole.getUserRoleInfo(1))
+//     };
+// });
