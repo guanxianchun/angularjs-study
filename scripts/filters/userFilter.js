@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/3/27 0027.
  */
 define([
-    "filters/filters",'angular'
+    "filters/filters"
 ],function (filters) {
     "use strict";
     filters.filter("capitalize",function () {

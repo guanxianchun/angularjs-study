@@ -4,7 +4,5 @@
  */
 define(["angular"],function (angular) {
     "use strict";
-    return {
-        "userDirective":angular.module("userDirective")
-    }
+    return angular.module("directives",[]);
 })

@@ -17,30 +17,27 @@
     </div>
     <div class="mainContent  has-shadow">
         <div ng-view></div>
-        <span ng-controller="userInfoController">
-            {{person.name}}
-        </span>
     </div>
 </div>
 <div>
-    <!--<div ng-controller="userInfoController">-->
-        <!--<div>-->
-            <!--<input type="text" ng-model="person.name">-->
-            <!--<div>-->
-                <!--<div>自定义过滤器</div>-->
-                <!--<div>{{person.name| lowercase |capitalize }}</div>-->
-            <!--</div>-->
-            <!--<input type="button" ng-click="showPersonName()" value="显示姓名">-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div>-->
-        <!--<div>自定义指令</div>-->
-        <!--<my-demo-link></my-demo-link>-->
-    <!--</div>-->
-    <!--<div>-->
-        <!--<div>自定义路由</div>-->
-        <!--<div ng-view></div>-->
-    <!--</div>-->
+    <div ng-controller="userInfoController">
+        <div>
+            <input type="text" ng-model="person.name">
+            <div>
+                <div>自定义过滤器</div>
+                <div>{{person.name| lowercase |capitalize }}</div>
+            </div>
+            <input type="button" ng-click="showPersonName()" value="显示姓名">
+        </div>
+    </div>
+    <div>
+        <div>自定义指令</div>
+        <my-demo-link></my-demo-link>
+    </div>
+    <div>
+        <div>自定义路由</div>
+        <div ng-view></div>
+    </div>
 </div>
 <script src="components/requirejs/require.js" data-main="scripts/main.js"></script>
 </body>

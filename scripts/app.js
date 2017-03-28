@@ -11,9 +11,9 @@ define([
     "angular-route",
     "angular-resource",
     "controllers/index",
-    // "filters/index",
-    "services/index"
-    // "directives/index"
+    "filters/index",
+    "services/index",
+    "directives/index"
 ],function (angular) {
-        return angular.module("app",["ngRoute","ngResource","controllers","services"]);
+        return angular.module("app",["ngRoute","ngResource","controllers","services","directives","filters"]);
 })

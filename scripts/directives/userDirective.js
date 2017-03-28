@@ -2,8 +2,8 @@
  * Created by Administrator on 2017/3/27 0027.
  * 创建angularjs指令
  */
-define(["directives/directives"],function (userDirective) {
-    userDirective.directive("myDemoLink",function () {
+define(["directives/directives"],function (directives) {
+    directives.directive("myDemoLink",function () {
         console.log("run in directive.....");
         return {
             restrict:"EA",

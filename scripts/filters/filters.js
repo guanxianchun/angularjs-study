@@ -4,7 +4,5 @@
  */
 define(["angular"],function (angular) {
     "use strict";
-    return {
-        "userFilter":angular.module("userFilter")
-    }
+    return angular.module("filters",[]);
 })
