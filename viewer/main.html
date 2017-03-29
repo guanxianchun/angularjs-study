@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div ng-controller="userInfoController">
+        <table>
+            <tr>
+                <td><div>自定义过滤器</div></td>
+                <td><input type="text" ng-model="person.name"></td>
+                <td><div>{{person.name| lowercase |capitalize }}</div></td>
+            </tr>
+            <tr>
+                <td><div>调用控制器方法</div></td>
+                <td><input type="button" ng-click="showPersonName()" value="显示输入内容"></td>
+                <td><div>{{personName}}</div></td>
+            </tr>
+            <tr>
+                <td><div>自定义指令</div></td>
+                <td><my-demo-link></my-demo-link></td>
+                <td><div></div></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

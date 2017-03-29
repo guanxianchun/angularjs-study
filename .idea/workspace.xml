@@ -2,23 +2,287 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5369334-686c-49d3-a9ad-5acae478577e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/services/roleService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/bghover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/headerbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/login-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/noise.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/statistic_board.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/statistic_board_1024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/statistic_board_1366_1600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/statistic_board_1600_1920.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background/topheaderbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/aiwrap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/arrow-active-green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/arrow-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/mCSB_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/menuarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/rank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/searchbutton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/searchcancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/slideup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/stat_monitor_arr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatar9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/avatarbig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/default-head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/image1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/image2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/image3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/image4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/image5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/thumbs/image6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/userinfoarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/xlsx-new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/xlsx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/accordinarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/addfolder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/attachment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/blacktrans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/bluetrans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/btngrad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/buttonbg3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/calarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/call.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/chat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/form-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/glass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/help.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-linux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-linux_1366.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-other_1366.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-stack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-stack_1366.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-win.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/ico-win_1366.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/icons_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/icons_sprite2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/important.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/line.ccc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/line.dashed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/mc_linux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/mc_win.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/menucollapsed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/notifications.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/online.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/password.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/patternbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/quote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/quote2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/selectall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/separator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/sliderhor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/sliderver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/speech.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/sprites.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/stepline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/steps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/thead.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/titlebg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/trash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/unstar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/username.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/widgets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/__help.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/__important.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/__info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/__loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/__title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/tip-yellowsimple_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jAlert/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/demo/u105.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/demo/u95.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/DRManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/DRManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/authorityManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/authorityManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/chart.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/cloudManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/cloudManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/configManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/configManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/accessAuthority.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/accessAuthority_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/analyseDoc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/analyseDoc_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/design.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/design_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/docModel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/docModel_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/flow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/flow_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/job.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/job_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/materialResource.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/materialResource_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/monitor_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/myProject.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/myProject_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/node.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/node_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/operate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/operate_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/processCtrl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/processCtrl_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/roleManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/roleManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/softwareResource.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/softwareResource_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/state.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/state_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/structure.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/structure_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/testModel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/testModel_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/testReport.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/testReport_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/testState.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/testState_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/userManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/userManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/virtualResource.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/designer/virtualResource_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/docModel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/docModel_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/finish.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/flatscreen.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/guocheng.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/huanjing.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_box_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_brush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_brush_inavtive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_calendar_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_chart_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_draft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_draft_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_elem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_elem_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_file_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_gallery_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_in_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_out_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_picture_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_stop_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_storage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_storage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_table_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_topo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_topo_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_trash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_trash_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_user_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_userout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_userout_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_widget.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/icon_widget_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/itemPoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/itemPoint_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/materialResource.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/materialResource_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/message.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/pencil.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/renyuan.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/resourceMonitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/resourceMonitor_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/shuju.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/softwareResource.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/softwareResource_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testDoc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testDoc_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testJob.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testJob_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testLog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testLog_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testModel4r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testModel4r_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testModel4s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testModel4s_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testProject.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/testProject_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/myProject.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/myProject_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/processManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/processManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/stateMonitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/stateMonitor_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/statisticAnalyse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/statisticAnalyse_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/testReport.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/tester/testReport_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/usageMonitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/usageMonitor_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/userManage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/userManage_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/userMonitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/userMonitor_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/virtualResource.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/virtualResource_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/repo/menu/wendang.white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/common/environmental.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/main.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/viewer/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/app.js" afterPath="$PROJECT_DIR$/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/controllers.js" afterPath="$PROJECT_DIR$/scripts/controllers/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/index.js" afterPath="$PROJECT_DIR$/scripts/controllers/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/userController.js" afterPath="$PROJECT_DIR$/scripts/controllers/userController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directives/directives.js" afterPath="$PROJECT_DIR$/scripts/directives/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directives/index.js" afterPath="$PROJECT_DIR$/scripts/directives/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directives/userDirective.js" afterPath="$PROJECT_DIR$/scripts/directives/userDirective.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/filters/filters.js" afterPath="$PROJECT_DIR$/scripts/filters/filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/filters/index.js" afterPath="$PROJECT_DIR$/scripts/filters/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/filters/userFilter.js" afterPath="$PROJECT_DIR$/scripts/filters/userFilter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/router/router.js" afterPath="$PROJECT_DIR$/scripts/router/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/services/index.js" afterPath="$PROJECT_DIR$/scripts/services/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/services/services.js" afterPath="$PROJECT_DIR$/scripts/services/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/services/userService.js" afterPath="$PROJECT_DIR$/scripts/services/userService.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/viewer/main.html" />
     </list>
     <ignored path="angularjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,53 +303,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            <state relative-caret-position="247">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/router/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-route.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/angularjs-1.5.0/angular-route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
               <folding>
-                <marker date="1490757846452" expanded="true" signature="453:1222" placeholder="..." />
+                <marker date="1490771427759" expanded="true" signature="12574:13321" placeholder="..." />
+                <marker date="1490771427759" expanded="true" signature="13861:14014" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="14096:14205" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="14290:14402" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="14474:15232" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="14541:14938" placeholder="{&quot;templateUrl&quot;: 'book.html'...}" />
+                <marker date="1490771427759" expanded="true" signature="14653:14923" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="14752:14906" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="14990:15097" placeholder="{&quot;templateUrl&quot;: 'chapter.html'...}" />
+                <marker date="1490771427759" expanded="true" signature="15390:15977" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="29289:30003" placeholder="..." />
+                <marker date="1490771427759" expanded="true" signature="29614:29684" placeholder="..." />
+                <marker date="1490771427759" expanded="true" signature="30062:30167" placeholder="..." />
+                <marker date="1490771427759" expanded="true" signature="30229:30391" placeholder="..." />
+                <marker date="1490771427759" expanded="true" signature="30475:30661" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="30685:30720" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="30777:31075" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="31108:31140" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="31188:31217" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="31265:31298" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="31428:32011" placeholder="[...]" />
+                <marker date="1490771427759" expanded="true" signature="31524:32010" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="31594:31738" placeholder="{&quot;templateUrl&quot;: 'book.html'...}" />
+                <marker date="1490771427759" expanded="true" signature="31793:31946" placeholder="{&quot;templateUrl&quot;: 'chapter.html'...}" />
+                <marker date="1490771427759" expanded="true" signature="32047:32281" placeholder="[...]" />
+                <marker date="1490771427759" expanded="true" signature="32141:32280" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="32317:32447" placeholder="[...]" />
+                <marker date="1490771427759" expanded="true" signature="32357:32446" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="32486:32619" placeholder="[...]" />
+                <marker date="1490771427759" expanded="true" signature="32526:32618" placeholder="{...}" />
+                <marker date="1490771427759" expanded="true" signature="32756:33289" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/directives/directives.js">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="247">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userFilter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/filters/userFilter.js">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewer/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="288">
+              <caret line="16" column="82" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roleService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/services/roleService.js">
+      <file leaf-file-name="web-forms2.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userDirective.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/directives/userDirective.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="219">
+              <caret line="621" column="22" selection-start-line="621" selection-start-column="22" selection-end-line="621" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -101,11 +405,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/controllers/userController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="380">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -121,34 +425,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -161,7 +446,6 @@
         <option value="$PROJECT_DIR$/scripts/controller/userService.js" />
         <option value="$PROJECT_DIR$/scripts/route/mainRoute.js" />
         <option value="$PROJECT_DIR$/scripts/route/route.js" />
-        <option value="$PROJECT_DIR$/viewer/index.html" />
         <option value="$PROJECT_DIR$/scripts/loadMaon.js" />
         <option value="$PROJECT_DIR$/scripts/services.js" />
         <option value="$PROJECT_DIR$/scripts/filter.js" />
@@ -178,7 +462,6 @@
         <option value="$PROJECT_DIR$/scripts/filter/filterBus.js" />
         <option value="$PROJECT_DIR$/scripts/modules/servicesBus.js" />
         <option value="$PROJECT_DIR$/scripts/filter/filters.js" />
-        <option value="$PROJECT_DIR$/viewer/main.html" />
         <option value="$PROJECT_DIR$/scripts/filter/userFilter.js" />
         <option value="$PROJECT_DIR$/scripts/modules/userService.js" />
         <option value="$PROJECT_DIR$/scripts/loadMain.js" />
@@ -193,13 +476,17 @@
         <option value="$PROJECT_DIR$/scripts/filters/index.js" />
         <option value="$PROJECT_DIR$/scripts/services/index.js" />
         <option value="$PROJECT_DIR$/scripts/directives/userDirective.js" />
-        <option value="$PROJECT_DIR$/scripts/router/router.js" />
         <option value="$PROJECT_DIR$/scripts/services/userService.js" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
         <option value="$PROJECT_DIR$/scripts/services/roleService.js" />
         <option value="$PROJECT_DIR$/scripts/filters/userFilter.js" />
-        <option value="$PROJECT_DIR$/scripts/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/style/main.css" />
+        <option value="$PROJECT_DIR$/components/angularjs-1.5.0/angular-route.js" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/viewer/index.html" />
+        <option value="$PROJECT_DIR$/scripts/router/router.js" />
+        <option value="$PROJECT_DIR$/viewer/main.html" />
+        <option value="$PROJECT_DIR$/scripts/controllers/userController.js" />
       </list>
     </option>
   </component>
@@ -209,8 +496,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="579" />
-    <option name="y" value="67" />
+    <option name="x" value="643" />
+    <option name="y" value="149" />
     <option name="width" value="1467" />
     <option name="height" value="792" />
   </component>
@@ -269,6 +556,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="viewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -287,43 +588,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
+              <option name="myItemId" value="router" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,17 +619,19 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\developer\web\angularjs-study\components\requirejs" />
-      <recent name="D:\developer\web\angularjs\components" />
-      <recent name="D:\developer\web\angularjs\components\angularjs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\developer\web\angularjs-study" />
       <recent name="D:\developer\web\angularjs-study\scripts\controller" />
       <recent name="D:\developer\web\angularjs\scripts\modules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\developer\web\angularjs-study" />
+      <recent name="D:\developer\web\angularjs-study\components\requirejs" />
+      <recent name="D:\developer\web\angularjs\components" />
+      <recent name="D:\developer\web\angularjs\components\angularjs" />
     </key>
   </component>
   <component name="RunManager">
@@ -442,15 +709,15 @@
       <workItem from="1489483642606" duration="1869000" />
       <workItem from="1490596746486" duration="14464000" />
       <workItem from="1490666036104" duration="22317000" />
-      <workItem from="1490751254754" duration="6616000" />
+      <workItem from="1490751254754" duration="15785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45286000" />
+    <option name="totallyTimeSpent" value="54455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="579" y="67" width="1467" height="792" extended-state="0" />
+    <frame x="643" y="149" width="1467" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19021365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -489,24 +756,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <marker date="1490757846452" expanded="true" signature="453:1222" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/directives/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -571,13 +820,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <marker date="1490757846452" expanded="true" signature="453:1222" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,13 +868,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <marker date="1490757846452" expanded="true" signature="453:1222" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -655,13 +900,6 @@
     <entry file="file://$PROJECT_DIR$/scripts/directive.js" />
     <entry file="file://$PROJECT_DIR$/scripts/filter.js" />
     <entry file="file://$PROJECT_DIR$/scripts/service.js" />
-    <entry file="file://$PROJECT_DIR$/viewer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/routes.js" />
     <entry file="file://$PROJECT_DIR$/scripts/loadMain.js" />
     <entry file="file://$PROJECT_DIR$/components/requirejs/require.js">
@@ -704,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -732,14 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -792,21 +1014,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/userController.js">
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
+    <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="247">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/angularjs-1.5.0/angular-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
           <folding>
-            <marker date="1490757846452" expanded="true" signature="453:1222" placeholder="..." />
+            <marker date="1490771427759" expanded="true" signature="12574:13321" placeholder="..." />
+            <marker date="1490771427759" expanded="true" signature="13861:14014" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="14096:14205" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="14290:14402" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="14474:15232" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="14541:14938" placeholder="{&quot;templateUrl&quot;: 'book.html'...}" />
+            <marker date="1490771427759" expanded="true" signature="14653:14923" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="14752:14906" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="14990:15097" placeholder="{&quot;templateUrl&quot;: 'chapter.html'...}" />
+            <marker date="1490771427759" expanded="true" signature="15390:15977" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="29289:30003" placeholder="..." />
+            <marker date="1490771427759" expanded="true" signature="29614:29684" placeholder="..." />
+            <marker date="1490771427759" expanded="true" signature="30062:30167" placeholder="..." />
+            <marker date="1490771427759" expanded="true" signature="30229:30391" placeholder="..." />
+            <marker date="1490771427759" expanded="true" signature="30475:30661" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="30685:30720" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="30777:31075" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="31108:31140" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="31188:31217" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="31265:31298" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="31428:32011" placeholder="[...]" />
+            <marker date="1490771427759" expanded="true" signature="31524:32010" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="31594:31738" placeholder="{&quot;templateUrl&quot;: 'book.html'...}" />
+            <marker date="1490771427759" expanded="true" signature="31793:31946" placeholder="{&quot;templateUrl&quot;: 'chapter.html'...}" />
+            <marker date="1490771427759" expanded="true" signature="32047:32281" placeholder="[...]" />
+            <marker date="1490771427759" expanded="true" signature="32141:32280" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="32317:32447" placeholder="[...]" />
+            <marker date="1490771427759" expanded="true" signature="32357:32446" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="32486:32619" placeholder="[...]" />
+            <marker date="1490771427759" expanded="true" signature="32526:32618" placeholder="{...}" />
+            <marker date="1490771427759" expanded="true" signature="32756:33289" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="621" column="22" selection-start-line="621" selection-start-column="22" selection-end-line="621" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewer/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewer/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="82" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

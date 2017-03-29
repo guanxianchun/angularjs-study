@@ -14,8 +14,13 @@ define(["controllers/controllers","services/userService","services/roleService"]
                 $scope.person = roleService.getUserRoleInfo("1");
                 console.log("**************");
                 console.log($scope.person);
+                $scope.personName="";
                 $scope.showPersonName = function () {
-                    console.log($scope.person);
+                    if($scope.person.name){
+                        $scope.personName = "输入内容："+$scope.person.name;
+                    }else{
+                        $scope.personName = "输入内容：";
+                    }
                 }
             }
         ])

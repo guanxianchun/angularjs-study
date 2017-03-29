@@ -1,0 +1,231 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.heading{
+    background-color: #424242;
+    font-family: '\5FAE\8F6F\96C5\9ED1', Helvetica, Arial, sans-serif;
+    text-shadow: -2px 2px 0 rgba(0,0,0,0.1);
+    font-style: normal;
+    font-size: 40px;
+    vertical-align:middle;
+    height: 60px;
+    margin: 0px;
+    width: 100%;
+}
+.left{
+    float: left;
+    width: 15%;
+    height: 80%;
+    margin: 0px;
+    clear: left;
+    border: 1px solid;
+    height: 80%;
+}
+
+.main{
+    float: left;
+    clear: right;
+    margin-top: 0px;
+    width: 84.6%;
+    height: 80%;
+    border: 1px solid;
+    transition: top .5s;
+    background-color: #4cae4c;
+}
+
+.left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left ul li {
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.left ul li a {
+    display: inline-block;
+    width: 60%;
+    padding: 9px 8px;
+    background: #fff;
+    font-family: 'RobotoBoldCondensed', Arial, Helvetica, sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+.left>ul>li a:hover {
+    background-color: #fcfcfc;
+}
+
+.left>ul>li.current a {
+    background-color: #f7f7f7;
+    color: #07a2cf;
+}
+
+.left ul ul {
+    margin: 0;
+    padding-left: 10px;
+    border-top: 1px solid #eee;
+}
+
+.left ul ul li {
+    border-bottom: 0;
+}
+
+.left ul ul li a {
+    color: #999;
+    background: #fff url(../images/icons/line.dashed.png) no-repeat -25px
+    center;
+    border-left: 1px dashed #ccc;
+    padding-left: 10px;
+    text-decoration: none;
+    transition: 0s !important;
+    cursor: pointer;
+}
+
+.left ul ul li a:hover {
+    background: #f7f7f7;
+    color: #666;
+}
+
+.left ul ul li:last-child {
+    border-bottom: 0;
+}
+
+.left ul li ul {
+    display: block;
+}
+
+.left ul li ul li.current a {
+    background-color: #f7f7f7;
+    color: #666;
+}
+
+.left ul li i.arrow {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 5px;
+    height: 9px;
+    background: url(../images/common/menuarrow.png) no-repeat 0 0;
+}
+
+.left ul li.folder i.arrow {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -moz-transform: rotate(90deg); /* Firefox */
+    -webkit-transform: rotate(90deg); /* Safari 和 Chrome */
+    -o-transform: rotate(90deg); /* Opera */
+}
+
+
+
+
+/***** TABLE THEME *****/
+table tbody th {
+    border: 1px solid #ddd;
+    border-top: none !important;
+}
+
+table tbody td {
+    border: 1px solid #ddd;
+}
+
+table td.table_blank {
+    border: none !important;
+    height: 15px;
+}
+
+table .table_blank:hover {
+    background: #fff;
+}
+
+.table-theme {
+    background-color: #fff;
+}
+
+.table-theme thead, .table-theme tfoot {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+
+.table-theme > thead > tr > th,
+.table-theme > tbody > tr > th,
+.table-theme > tfoot > tr > th,
+.table-theme > thead > tr > td,
+.table-theme > tbody > tr > td,
+.table-theme > tfoot > tr > td {
+    padding: 6px;
+    vertical-align: initial;
+}
+
+.table-theme > tbody > tr > th,
+.table-theme > tbody > tr > td {
+    text-align: center;
+}
+
+.table-theme th {
+    background-color: #eee;
+}
+
+.table-theme td.operation a:first-child {
+    margin-left: 0;
+}
+
+.table-theme td.operation a {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.table-theme td.operation a i {
+    margin-right: 5px;
+}
+
+.table-theme thead form>div {
+    margin: 3px 0 !important;
+}
+
+.table-theme thead form>div button i {
+    margin-right: 5px;
+}
+
+.table-theme thead form>div div.datetime input, .table-theme thead form>div div.datetime i
+{
+    cursor: pointer;
+}
+
+.table-theme th input.checkAll {
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+
+.table-theme td span.limit-info {
+    display: inline-block;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.table-theme .no-data {
+    text-align: center;
+}
+
+.table-theme-detail caption {
+    font-weight: bold;
+    color: #333;
+}
+
+.table-theme-detail > tbody > tr > td:nth-child(odd),
+.table-report > tbody > tr > th {
+    text-align: right;
+}
