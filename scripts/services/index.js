@@ -1,9 +1,11 @@
 /**
  * Created by Administrator on 2017/3/28 0028.
- * 定义服务总线
+ * 加载所有的服务
+ * 有多个时，需要在define中分别加进来
  */
 define([
-    "services/userService"
+    "services/userService",
+    "services/roleService"
 ],function () {
 
 })

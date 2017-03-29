@@ -1,12 +1,6 @@
 <html>
 <head>
-    <!--<script src="../components/angularjs-1.5.0/angular.js"></script>-->
-    <!--<script src="../components/angularjs-1.5.0/angular-route.js"></script>-->
-    <!--<script src="../scripts/modules/userService.js"></script>-->
-    <!--<script src="../scripts/filter/userFilter.js"></script>-->
-    <!--<script src="../scripts/controller/userController.js"></script>-->
-    <!--<script src="../scripts/directive/userDirective.js"></script>-->
-    <!--<script src="../scripts/route/route.js"></script>-->
+    <script src="components/requirejs/require.js" data-main="scripts/main.js"></script>
 </head>
 <body>
 <div class="main">
@@ -21,24 +15,30 @@
 </div>
 <div>
     <div ng-controller="userInfoController">
-        <div>
-            <input type="text" ng-model="person.name">
-            <div>
-                <div>自定义过滤器</div>
-                <div>{{person.name| lowercase |capitalize }}</div>
-            </div>
-            <input type="button" ng-click="showPersonName()" value="显示姓名">
-        </div>
-    </div>
-    <div>
-        <div>自定义指令</div>
-        <my-demo-link></my-demo-link>
+        <table>
+            <tr>
+                <td><div>自定义过滤器</div></td>
+                <td><input type="text" ng-model="person.name"></td>
+                <td><div>{{person.name| lowercase |capitalize }}</div></td>
+            </tr>
+            <tr>
+                <td><div>调用控制器方法</div></td>
+                <td><input type="button" ng-click="showPersonName()" value="显示姓名"></td>
+                <td><div>{{person.name}}</div></td>
+            </tr>
+            <tr>
+                <td><div>自定义指令</div></td>
+                <td><my-demo-link></my-demo-link></td>
+                <td><div></div></td>
+            </tr>
+
+        </table>
     </div>
     <div>
         <div>自定义路由</div>
         <div ng-view></div>
     </div>
 </div>
-<script src="components/requirejs/require.js" data-main="scripts/main.js"></script>
+
 </body>
 </html>

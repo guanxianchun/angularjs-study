@@ -1,37 +1,22 @@
 /**
  * Created by Administrator on 2017/3/27 0027.
- * 创建userInfoController控制器，并在控制器中使用了userSerivce、userRole服务 以及使用了userFilter.js中的capitalize过滤器
- * 注意：在控制器使中使用过滤器需要引入，不然全报错
+ * 创建userInfoController控制器，并在控制器中使用了userSerivce、roleService服务
+ * 注意：在define中要指定使用服务的js文件(其中后缀可以省略) 然后在定义控制中使用相应的服务
  */
-define(["controllers/controllers"],
-    function (controllers) {
+define(["controllers/controllers","services/userService","services/roleService"],
+    function (angular) {
         'use strict';
-        console.log("run in controller........");
-        controllers.controller("userInfoController",["$scope","userSerivce","userRole",
-            function ($scope,userSerivce,userRole) {
+        angular.userControllers.controller("userInfoController",["$scope","userSerivce","roleService",
+            function ($scope,userSerivce,roleService) {
+                $scope.person={"name":"guan.xianchun"};
                 $scope.person=userSerivce.getUserInfo("1");
+                console.log($scope.person);
+                $scope.person = roleService.getUserRoleInfo("1");
                 console.log("**************");
                 console.log($scope.person);
+                $scope.showPersonName = function () {
+                    console.log($scope.person);
+                }
             }
         ])
     })
-// define(["controllers/controllers"],function (controllers) {
-//     controllers
-//         controllers.controller("userInfoController",["$scope","userSerivce","userRole",function ($scope,userSerivce,userRole) {
-//             $scope.person=userSerivce.getUserInfo("1");
-//             console.log($scope.person);
-//             $scope.showPersonName=function () {
-//                 console.log($scope.person);
-//                 console.log(userRole.getUserRoleInfo(1))
-//             };
-//         }])
-// })
-// angular.module('demo',['demo.services',"demo.filters","demo.directives"])
-// .controller('userInfoController',function ($scope,userSerivce,userRole) {
-//     $scope.person=userSerivce.getUserInfo("1");
-//     console.log($scope.person);
-//     $scope.showPersonName=function () {
-//         console.log($scope.person);
-//         console.log(userRole.getUserRoleInfo(1))
-//     };
-// });

@@ -4,5 +4,8 @@
  */
 define(["angular"],function (angular) {
     "use strict";
-    return angular.module("services",["ngResource"]);
+    return {
+        "userServices":angular.module("userServices",["ngResource"]),
+        "roleServices":angular.module("roleServices",[])
+    }
 })

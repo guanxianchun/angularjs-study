@@ -4,5 +4,7 @@
  */
 define(["angular"],function (angular) {
     "use strict";
-    return angular.module("controllers",[]);
+    return {
+        "userControllers":angular.module("userControllers",[])
+    }
 })

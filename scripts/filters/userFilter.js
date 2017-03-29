@@ -1,11 +1,12 @@
 /**
  * Created by Administrator on 2017/3/27 0027.
+ * 定义过滤器  filters/filters指定过滤器模块，并将capitalize过滤器注册到userFilters模块中
  */
 define([
     "filters/filters"
-],function (filters) {
+],function (angular) {
     "use strict";
-    filters.filter("capitalize",function () {
+    angular.userFilters.filter("capitalize",function () {
         return function (input) {
             console.log("run in filter....");
             if(input){
@@ -14,12 +15,3 @@ define([
         };
     });
 })
-// angular.module("demo.filters",[])
-// .filter("capitalize",function () {
-//     return function (input) {
-//         console.log("run in filter....");
-//         if(input){
-//             return input[0].toUpperCase()+input.slice(1);
-//         }
-//     };
-// });

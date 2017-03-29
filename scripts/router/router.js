@@ -12,12 +12,3 @@ define(["app"],function (app) {
         $locationProvider.hasOwnProperty("!");
     }]);
 })
-// angular.module("demo",["ngRoute",'demo.services',"demo.filters","demo.directives"])
-//     .config(["$routeProvider","$locationProvider",function ($routeProvider,$locationProvider) {
-//         console.log("run in route provider.........");
-//         $routeProvider
-//             .when("students",{
-//                 templateUrl:"viewer/main.html"
-//             });
-//         $locationProvider.hasOwnProperty("!");
-//     }]);
