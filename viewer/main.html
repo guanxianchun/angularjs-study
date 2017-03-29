@@ -6,10 +6,10 @@
 </head>
 <body>
     <div ng-controller="userInfoController">
-        <table>
+        <table width="80%">
             <tr>
-                <td><div>自定义过滤器</div></td>
-                <td><input type="text" ng-model="person.name"></td>
+                <td width="20%"><div>自定义过滤器</div></td>
+                <td width="20%"><input type="text" ng-model="person.name"></td>
                 <td><div>{{person.name| lowercase |capitalize }}</div></td>
             </tr>
             <tr>
@@ -21,6 +21,11 @@
                 <td><div>自定义指令</div></td>
                 <td><my-demo-link></my-demo-link></td>
                 <td><div></div></td>
+            </tr>
+            <tr>
+                <td><div>Provider定义服务</div></td>
+                <td><input type="button" ng-click="testProviderService('管贤春')" value="调用Provider"></td>
+                <td><div>{{providerValue}}</div></td>
             </tr>
 
         </table>

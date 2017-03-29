@@ -6,8 +6,8 @@
 define(["controllers/controllers","services/userService","services/roleService"],
     function (angular) {
         'use strict';
-        angular.userControllers.controller("userInfoController",["$scope","userSerivce","roleService",
-            function ($scope,userSerivce,roleService) {
+        angular.userControllers.controller("userInfoController",["$scope","userServiceProvider","userSerivce","roleService",
+            function ($scope,userServiceProvider,userSerivce,roleService) {
                 $scope.person={"name":"guan.xianchun"};
                 $scope.person=userSerivce.getUserInfo("1");
                 console.log($scope.person);
@@ -21,6 +21,10 @@ define(["controllers/controllers","services/userService","services/roleService"]
                     }else{
                         $scope.personName = "输入内容：";
                     }
+                };
+                $scope.providerValue="";
+                $scope.testProviderService = function (name) {
+                    $scope.providerValue = userServiceProvider(name)
                 }
             }
         ])

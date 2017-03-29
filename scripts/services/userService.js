@@ -13,4 +13,15 @@ define(["services/services"],function (angular) {
             }
         }
     }]);
+    angular.userServices.provider("userServiceProvider",function () {
+        console.log("instance userServiceProvider.....");
+        var hello = function (name) {
+            console.log("hello "+name)
+            return "hello "+name;
+        }
+        //一定要有$get
+        this.$get = function ($http) {
+            return hello;
+        }
+    });
 })
