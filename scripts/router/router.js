@@ -6,12 +6,10 @@ define(["app"],function (app) {
     return app.config(["$routeProvider","$locationProvider",
         function ($routeProvider,$locationProvider) {
             console.log("run in router.........");
-            $routeProvider.when("/",{
-                templateUrl:"viewer/main.html"
-            }).when("/routerTest",{
-                templateUrl:"viewer/main.html",
+            $routeProvider.when("/routerTest",{
+                templateUrl:"viewer/angular-test.html",
                 controller:"userInfoController"
-            }).otherwise({redirectTo:"/login"});
+            })
             $locationProvider.hashPrefix("!");
         }
     ]);

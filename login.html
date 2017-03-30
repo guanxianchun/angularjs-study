@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div ng-controller="userInfoController">
+        <div>
+            <label>用户名</label>
+            <input type="text" ng-model="user.name">
+        </div>
+        <div>
+            <label> 密码</label>
+            <input type="password" ng-model="user.password">
+        </div>
+        <div><input type="button" ng-click="post_auth()" value="提交"></div>
+    </div>
+</body>
+</html>

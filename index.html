@@ -4,16 +4,30 @@
     <link type="text/css" rel="stylesheet" href="style/main.css">
 </head>
 <body>
-
 <div class="container">
-    <div class="heading">AngularJS实战</div>
-    <div class="left">
-        <ul>
-            <li><a ng-href="#!/routerTest">路由测试</a></li>
-        </ul>
+    <div ng-if="!isUserAuth" ng-controller="userInfoController">
+        <div>
+            <label>用户名</label>
+            <input type="text" ng-model="user.name">
+        </div>
+        <div>
+            <label> 密码</label>
+            <input type="password" ng-model="user.password">
+        </div>
+        <div><input type="button" ng-click="post_auth()" value="提交"></div>
     </div>
-    <div class="main">
-        <div ng-view></div>
+    <div ng-if="isUserAuth">
+        <div class="heading">AngularJS实战</div>
+        <div class="left">
+            <ul>
+                <li ng-repeat="menu in menus">
+                    <a href="{{menu.url}}">{{menu.name}}</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div ng-view></div>
+        </div>
     </div>
 </div>
 </body>
